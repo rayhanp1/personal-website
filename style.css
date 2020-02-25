@@ -1,19 +1,77 @@
 body{
+    margin: 0px;
     font-family: 'Poppins';
 }
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
 .name-highlight{
-    color: #f31c99;
+    color: #fc0093;
 }
 .half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    position: center;
 }
 .half-width img{
     width: 100%;
+    
+}
+.top-banner{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 220px;
+    }
 
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #f8448c, #f8225b);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.my-biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.latest-work-area img{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    position: center;
+}
+.client-review{
+    text-align: center;
+}
+.founder{
+    color: #7c7cf8;
+}
+.contact{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #f8448c, #f8225b);
+    padding: 55px 100px 55px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 100%;
+}
+.latest-work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.footer-area{
+    text-align: center;
 }
